@@ -1,0 +1,36 @@
+.widget_discord_profile {
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid rgba(148, 156, 255, 0.72);
+  border-radius: 5px;
+  background:
+    radial-gradient(ellipse at top right, rgba(148, 156, 255, 0.24), transparent 58%),
+    linear-gradient(145deg, #313653 0%, #202337 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 8px 22px rgba(0, 0, 0, 0.24);
+  color: #f2f3f5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.widget_discord_profile::before {
+  align-self: flex-start;
+  color: #b9bbff;
+  content: "DISCORD · PROFILE";
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.widget_discord_profile p {
+  margin: 2px 0;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+
+.widget_discord_profile img {
+  border: 3px solid rgba(185, 187, 255, 0.8);
+  border-radius: 50%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.28);
+  object-fit: cover;
+}

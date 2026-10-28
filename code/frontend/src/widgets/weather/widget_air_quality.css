@@ -1,0 +1,27 @@
+.widget_air_quality {
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid rgba(119, 208, 242, 0.85);
+  border-radius: 5px;
+  background:
+    radial-gradient(ellipse at top right, rgba(255, 255, 255, 0.76), transparent 52%),
+    linear-gradient(145deg, #d9f4ff 0%, #8ed5f1 58%, #65b9dd 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 8px 22px rgba(0, 40, 70, 0.2);
+  color: #123b55;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.widget_air_quality h2 {
+  color: #0c5274;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.widget_air_quality strong {
+  color: #123b55;
+  font-size: clamp(16px, 5vw, 24px);
+  font-weight: 750;
+  overflow-wrap: anywhere;
+}
